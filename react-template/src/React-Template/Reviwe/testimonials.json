@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Tom Leakar",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c1.png"
+    },
+    {
+        "name": "Monirul Islam",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c2.png"
+    },
+    {
+        "name": "Shohrab Hossain",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c3.png"
+    },
+    {
+        "name": "Tom Leakar",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c4.png"
+    },
+    {
+        "name": "Tom Leakar",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c1.png"
+    },
+    {
+        "name": "Monirul Islam",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c2.png"
+    },
+    {
+        "name": "Shohrab Hossain",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c3.png"
+    },
+    {
+        "name": "Tom Leakar",
+        "location": "London, UK",
+        "comment": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.",
+        "imgSrc": "assets/images/clients/c4.png"
+    }
+]

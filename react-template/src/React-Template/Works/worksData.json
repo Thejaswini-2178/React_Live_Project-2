@@ -1,0 +1,27 @@
+{
+    "works": [
+      {
+        "icon": "flaticon-lightbulb-idea",
+        "title": "choose what to do",
+        "description": "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.",
+        "link": "#"
+      },
+      {
+        "icon": "flaticon-networking",
+        "title": "find what you want",
+        "description": "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.",
+        "link": "#"
+      },
+      {
+        "icon": "flaticon-location-on-road",
+        "title": "explore amazing place",
+        "description": "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.",
+        "link": "#"
+      }
+    ],
+    "sectionHeader": {
+      "title": "how it works",
+      "subtitle": "Learn More about how our website works"
+    }
+  }
+  

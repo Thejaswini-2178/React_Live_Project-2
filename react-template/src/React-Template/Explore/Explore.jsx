@@ -8,7 +8,8 @@ class Explore extends Component {
                     <div className="section-header">
                         <h2>explore</h2>
                         <p>Explore New place, food, culture around the world and many more</p>
-                    </div>{/*/.section-header*/}
+                    </div>
+                    {/*/.section-header*/}
                     <div className="explore-content">
                         <div className="row">
                             <div className=" col-md-4 col-sm-6">
