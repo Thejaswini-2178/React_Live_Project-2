@@ -1,0 +1,142 @@
+{
+    "type": "div",
+    "children": [
+      {
+        "type": "header",
+        "props": {
+          "id": "header-top",
+          "className": "header-top"
+        },
+        "children": [
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "div",
+                    "props": {
+                      "className": "header-top-left"
+                    },
+                    "children": [
+                      {
+                        "type": "ul",
+                        "children": [
+                          {
+                            "type": "li",
+                            "props": {
+                              "className": "select-opt"
+                            },
+                            "children": [
+                              {
+                                "type": "select",
+                                "props": {
+                                  "name": "language",
+                                  "id": "language"
+                                },
+                                "children": [
+                                  { "type": "option", "props": { "value": "default" }, "children": ["EN"] },
+                                  { "type": "option", "props": { "value": "Bangla" }, "children": ["BN"] },
+                                  { "type": "option", "props": { "value": "Arabic" }, "children": ["AB"] }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "li",
+                            "props": {
+                              "className": "select-opt"
+                            },
+                            "children": [
+                              {
+                                "type": "select",
+                                "props": {
+                                  "name": "currency",
+                                  "id": "currency"
+                                },
+                                "children": [
+                                  { "type": "option", "props": { "value": "usd" }, "children": ["USD"] },
+                                  { "type": "option", "props": { "value": "euro" }, "children": ["Euro"] },
+                                  { "type": "option", "props": { "value": "bdt" }, "children": ["BDT"] }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "li",
+                            "props": {
+                              "className": "select-opt"
+                            },
+                            "children": [
+                              {
+                                "type": "a",
+                                "props": { "href": "#" },
+                                "children": [
+                                  {
+                                    "type": "span",
+                                    "props": { "className": "lnr lnr-magnifier" }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "props": {
+                  "className": "head-responsive-right pull-right"
+                },
+                "children": [
+                  {
+                    "type": "div",
+                    "props": { "className": "header-top-right" },
+                    "children": [
+                      {
+                        "type": "ul",
+                        "children": [
+                          {
+                            "type": "li",
+                            "props": { "className": "header-top-contact" },
+                            "children": ["+1 222 777 6565"]
+                          },
+                          {
+                            "type": "li",
+                            "props": { "className": "header-top-contact" },
+                            "children": [
+                              {
+                                "type": "a",
+                                "props": { "href": "#" },
+                                "children": ["sign in"]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "li",
+                            "props": { "className": "header-top-contact" },
+                            "children": [
+                              {
+                                "type": "a",
+                                "props": { "href": "#" },
+                                "children": ["register"]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

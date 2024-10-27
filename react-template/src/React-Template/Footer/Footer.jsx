@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export class Footer extends Component {
+class Footer extends Component {
     render() {
         return (
             <div>
-                {/*footer start*/}
+               {/*footer start*/}
                 <footer id="footer" className="footer">
                     <div className="container">
                         <div className="footer-menu">
@@ -60,6 +60,7 @@ export class Footer extends Component {
                 {/* counter js */}
                 {/*slick.min.js*/}
                 {/*Custom JS*/}
+
 
             </div>
         )
