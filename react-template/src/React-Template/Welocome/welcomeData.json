@@ -1,0 +1,33 @@
+{
+    "homeSection": {
+      "id": "home",
+      "className": "welcome-hero",
+      "container": {
+        "welcomeHeroTxt": {
+          "title": "best place to find and explore",
+          "subtitle": "that all you need",
+          "description": "Find Best Place, Restaurant, Hotel, Real State and many more think in just One click"
+        },
+        "searchBox": {
+          "formFields": [
+            {
+              "title": "what?",
+              "placeholder": "Ex: place, restaurant, food, automobile",
+              "iconClass": "flaticon-list-with-dots"
+            },
+            {
+              "title": "location",
+              "placeholder": "Ex: london, newyork, rome",
+              "iconClass": "flaticon-gps-fixed-indicator"
+            }
+          ],
+          "searchButton": {
+            "text": "search",
+            "icon": "search",
+            "onclickHref": "#"
+          }
+        }
+      }
+    }
+  }
+  

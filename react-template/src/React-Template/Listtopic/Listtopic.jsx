@@ -1,64 +1,32 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import listtopicData from './listtopicData.json'; // Adjust the path if needed
 
 class Listtopic extends Component {
     render() {
+        const { listTopics } = listtopicData;
+
         return (
             <section id="list-topics" className="list-topics">
                 <div className="container">
                     <div className="list-topics-content">
                         <ul>
-                            <li>
-                                <div className="single-list-topics-content">
-                                    <div className="single-list-topics-icon">
-                                        <i className="flaticon-restaurant" />
+                            {listTopics.map((topic, index) => (
+                                <li key={index}>
+                                    <div className="single-list-topics-content">
+                                        <div className="single-list-topics-icon">
+                                            <i className={topic.icon} />
+                                        </div>
+                                        <h2><a href="#">{topic.title}</a></h2>
+                                        <p>{topic.listings} listings</p>
                                     </div>
-                                    <h2><a href="#">resturent</a></h2>
-                                    <p>150 listings</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="single-list-topics-content">
-                                    <div className="single-list-topics-icon">
-                                        <i className="flaticon-travel" />
-                                    </div>
-                                    <h2><a href="#">destination</a></h2>
-                                    <p>214 listings</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="single-list-topics-content">
-                                    <div className="single-list-topics-icon">
-                                        <i className="flaticon-building" />
-                                    </div>
-                                    <h2><a href="#">hotels</a></h2>
-                                    <p>185 listings</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="single-list-topics-content">
-                                    <div className="single-list-topics-icon">
-                                        <i className="flaticon-pills" />
-                                    </div>
-                                    <h2><a href="#">healthcaree</a></h2>
-                                    <p>200 listings</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="single-list-topics-content">
-                                    <div className="single-list-topics-icon">
-                                        <i className="flaticon-transport" />
-                                    </div>
-                                    <h2><a href="#">automotion</a></h2>
-                                    <p>120 listings</p>
-                                </div>
-                            </li>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>{/*/.container*/}
             </section>
-
-        )
+        );
     }
 }
 
-export default Listtopic
+export default Listtopic;

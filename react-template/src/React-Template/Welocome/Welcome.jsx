@@ -1,48 +1,50 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import welcomeData from './welcomeData.json'; // Adjust the path if needed
 
 class Welcome extends Component {
     render() {
+        const { homeSection } = welcomeData;
+        const { welcomeHeroTxt, searchBox } = homeSection.container;
+
         return (
-            <section id="home" className="welcome-hero">
+            <section id={homeSection.id} className={homeSection.className}>
                 <div className="container">
                     <div className="welcome-hero-txt">
-                        <h2>best place to find and explore <br /> that all you need </h2>
+                        <h2>
+                            {welcomeHeroTxt.title} <br />
+                            {welcomeHeroTxt.subtitle}
+                        </h2>
                         <p>
-                            Find Best Place, Restaurant, Hotel, Real State and many more think in just One click
+                            {welcomeHeroTxt.description}
                         </p>
                     </div>
                     <div className="welcome-hero-serch-box">
                         <div className="welcome-hero-form">
-                            <div className="single-welcome-hero-form">
-                                <h3>what?</h3>
-                                <form action="index.html">
-                                    <input type="text" placeholder="Ex: palce, resturent, food, automobile" />
-                                </form>
-                                <div className="welcome-hero-form-icon">
-                                    <i className="flaticon-list-with-dots" />
+                            {searchBox.formFields.map((field, index) => (
+                                <div key={index} className="single-welcome-hero-form">
+                                    <h3>{field.title}</h3>
+                                    <form action="index.html">
+                                        <input type="text" placeholder={field.placeholder} />
+                                    </form>
+                                    <div className="welcome-hero-form-icon">
+                                        <i className={field.iconClass} />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="single-welcome-hero-form">
-                                <h3>location</h3>
-                                <form action="index.html">
-                                    <input type="text" placeholder="Ex: london, newyork, rome" />
-                                </form>
-                                <div className="welcome-hero-form-icon">
-                                    <i className="flaticon-gps-fixed-indicator" />
-                                </div>
-                            </div>
+                            ))}
                         </div>
                         <div className="welcome-hero-serch">
-                            <button className="welcome-hero-btn" onclick="window.location.href='#'">
-                                search  <i data-feather="search" />
+                            <button
+                                className="welcome-hero-btn"
+                                onClick={() => window.location.href = searchBox.searchButton.onclickHref}
+                            >
+                                {searchBox.searchButton.text} <i data-feather={searchBox.searchButton.icon} />
                             </button>
                         </div>
                     </div>
                 </div>
             </section>
-
-    )
+        );
     }
 }
 
-export default Welcome
+export default Welcome;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import header from 'header.json'
 
 class Header extends Component {
     render() {
         return (
             <div>
+                {/*header-top start */}
                 <header id="header-top" className="header-top">
                     <ul>
                         <li>
@@ -33,7 +33,9 @@ class Header extends Component {
                         <li className="head-responsive-right pull-right">
                             <div className="header-top-right">
                                 <ul>
-                                    <li className="header-top-contact">+1 222 777 6565</li>
+                                    <li className="header-top-contact">
+                                        +1 222 777 6565
+                                    </li>
                                     <li className="header-top-contact">
                                         <a href="#">sign in</a>
                                     </li>
@@ -44,7 +46,9 @@ class Header extends Component {
                             </div>
                         </li>
                     </ul>
-                </header>
+                </header>{/*/.header-top*/}
+                {/*header-top end */}
+
             </div>
         );
     }

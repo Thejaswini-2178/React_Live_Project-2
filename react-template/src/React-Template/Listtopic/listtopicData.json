@@ -1,0 +1,30 @@
+{
+    "listTopics": [
+      {
+        "icon": "flaticon-restaurant",
+        "title": "restaurant",
+        "listings": 150
+      },
+      {
+        "icon": "flaticon-travel",
+        "title": "destination",
+        "listings": 214
+      },
+      {
+        "icon": "flaticon-building",
+        "title": "hotels",
+        "listings": 185
+      },
+      {
+        "icon": "flaticon-pills",
+        "title": "healthcare",
+        "listings": 200
+      },
+      {
+        "icon": "flaticon-transport",
+        "title": "automotion",
+        "listings": 120
+      }
+    ]
+  }
+  

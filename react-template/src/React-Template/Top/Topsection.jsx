@@ -1,30 +1,51 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import topsectionData from './topsectionData.json'; // Adjust the path if needed
 
 class Topsection extends Component {
     render() {
+        const { headerArea } = topsectionData.topArea;
+        const { navbar } = headerArea;
+        const { container } = navbar;
+        
         return (
             <section className="top-area">
                 <div className="header-area">
                     {/* Start Navigation */}
-                    <nav className="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop={70} data-minus-value-mobile={55} data-speed={1000}>
+                    <nav
+                        className={navbar.className}
+                        data-minus-value-desktop={navbar.attributes['data-minus-value-desktop']}
+                        data-minus-value-mobile={navbar.attributes['data-minus-value-mobile']}
+                        data-speed={navbar.attributes['data-speed']}
+                    >
                         <div className="container">
                             {/* Start Header Navigation */}
                             <div className="navbar-header">
-                                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                                    <i className="fa fa-bars" />
+                                <button
+                                    type="button"
+                                    className={container.navbarHeader.navbarToggle.className}
+                                    data-toggle={container.navbarHeader.navbarToggle.attributes['data-toggle']}
+                                    data-target={container.navbarHeader.navbarToggle.attributes['data-target']}
+                                >
+                                    <i className={container.navbarHeader.navbarToggle.iconClassName} />
                                 </button>
-                                <a className="navbar-brand" href="index.html">list<span>race</span></a>
+                                <a className="navbar-brand" href={container.navbarHeader.brand.href}>
+                                    {container.navbarHeader.brand.text}
+                                    <span>{container.navbarHeader.brand.spanText}</span>
+                                </a>
                             </div>{/*/.navbar-header*/}
                             {/* End Header Navigation */}
                             {/* Collect the nav links, forms, and other content for toggling */}
-                            <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-                                <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                                    <li className=" scroll active"><a href="#home">home</a></li>
-                                    <li className="scroll"><a href="#works">how it works</a></li>
-                                    <li className="scroll"><a href="#explore">explore</a></li>
-                                    <li className="scroll"><a href="#reviews">review</a></li>
-                                    <li className="scroll"><a href="#blog">blog</a></li>
-                                    <li className="scroll"><a href="#contact">contact</a></li>
+                            <div className={container.navbarCollapse.className} id={container.navbarCollapse.id}>
+                                <ul
+                                    className="nav navbar-nav navbar-right"
+                                    data-in="fadeInDown"
+                                    data-out="fadeOutUp"
+                                >
+                                    {container.navbarCollapse.navItems.map((item, index) => (
+                                        <li key={index} className={item.className}>
+                                            <a href={item.href}>{item.text}</a>
+                                        </li>
+                                    ))}
                                 </ul>{/*/.nav */}
                             </div>{/* /.navbar-collapse */}
                         </div>{/*/.container*/}
@@ -33,8 +54,8 @@ class Topsection extends Component {
                 </div>{/*/.header-area*/}
                 <div className="clearfix" />
             </section>
-        )
+        );
     }
 }
 
-export default Topsection
+export default Topsection;

@@ -1,0 +1,45 @@
+{
+    "topArea": {
+      "headerArea": {
+        "navbar": {
+          "className": "navbar navbar-default bootsnav navbar-sticky navbar-scrollspy",
+          "attributes": {
+            "data-minus-value-desktop": 70,
+            "data-minus-value-mobile": 55,
+            "data-speed": 1000
+          },
+          "container": {
+            "navbarHeader": {
+              "navbarToggle": {
+                "type": "button",
+                "className": "navbar-toggle",
+                "attributes": {
+                  "data-toggle": "collapse",
+                  "data-target": "#navbar-menu"
+                },
+                "iconClassName": "fa fa-bars"
+              },
+              "brand": {
+                "href": "index.html",
+                "text": "list",
+                "spanText": "race"
+              }
+            },
+            "navbarCollapse": {
+              "className": "collapse navbar-collapse menu-ui-design",
+              "id": "navbar-menu",
+              "navItems": [
+                { "className": "scroll active", "href": "#home", "text": "home" },
+                { "className": "scroll", "href": "#works", "text": "how it works" },
+                { "className": "scroll", "href": "#explore", "text": "explore" },
+                { "className": "scroll", "href": "#reviews", "text": "review" },
+                { "className": "scroll", "href": "#blog", "text": "blog" },
+                { "className": "scroll", "href": "#contact", "text": "contact" }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+  
