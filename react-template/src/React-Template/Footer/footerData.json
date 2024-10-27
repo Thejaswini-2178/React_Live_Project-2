@@ -1,0 +1,31 @@
+{
+    "brand": {
+      "name": "listrace",
+      "url": "index.html"
+    },
+    "menuItems": [
+      { "name": "how it works", "link": "#works" },
+      { "name": "explore", "link": "#explore" },
+      { "name": "review", "link": "#reviews" },
+      { "name": "blog", "link": "#blog" },
+      { "name": "contact", "link": "#contact" },
+      { "name": "my account", "link": "#contact" }
+    ],
+    "copyright": {
+      "text": "©copyright. designed and developed by",
+      "link": {
+        "url": "https://www.themesine.com/",
+        "name": "themesine"
+      }
+    },
+    "contact": {
+      "phone": "+1 (222) 777 8888"
+    },
+    "socialLinks": [
+      { "platform": "facebook", "icon": "fa-facebook", "url": "#" },
+      { "platform": "twitter", "icon": "fa-twitter", "url": "#" },
+      { "platform": "linkedin", "icon": "fa-linkedin", "url": "#" },
+      { "platform": "google-plus", "icon": "fa-google-plus", "url": "#" }
+    ]
+  }
+  

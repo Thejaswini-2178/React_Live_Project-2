@@ -1,0 +1,22 @@
+[
+    {
+        "value": 90,
+        "unit": "K+",
+        "label": "Listings"
+    },
+    {
+        "value": 40,
+        "unit": "k+",
+        "label": "Listing Categories"
+    },
+    {
+        "value": 65,
+        "unit": "k+",
+        "label": "Visitors"
+    },
+    {
+        "value": 50,
+        "unit": "k+",
+        "label": "Happy Clients"
+    }
+]

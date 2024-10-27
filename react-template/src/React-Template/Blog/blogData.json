@@ -1,0 +1,27 @@
+{
+    "title": "News and Articles",
+    "description": "Always up to date with our latest News and Articles",
+    "posts": [
+        {
+            "image": "assets/images/blog/b1.jpg",
+            "title": "How to find your Desired Place more quickly",
+            "author": "admin",
+            "date": "March 2018",
+            "content": "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+        },
+        {
+            "image": "assets/images/blog/b2.jpg",
+            "title": "How to find your Desired Place more quickly",
+            "author": "admin",
+            "date": "March 2018",
+            "content": "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+        },
+        {
+            "image": "assets/images/blog/b3.jpg",
+            "title": "How to find your Desired Place more quickly",
+            "author": "admin",
+            "date": "March 2018",
+            "content": "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+        }
+    ]
+}
