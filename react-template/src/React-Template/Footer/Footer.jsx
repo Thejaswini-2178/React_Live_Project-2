@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import footerData from './footerData.json'; // Import the JSON data
+import footerData from './footerData.json';
 
 class Footer extends Component {
   render() {

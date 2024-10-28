@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import welcomeData from './welcomeData.json'; // Adjust the path if needed
+import welcomeData from './welcomeData.json'; 
 
 class Welcome extends Component {
     render() {

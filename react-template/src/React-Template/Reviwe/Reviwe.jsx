@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import testimonials from './testimonials.json'; // Adjust the path if needed
+import testimonials from './testimonials.json'; 
 
 class Review extends Component {
     render() {

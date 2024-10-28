@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import listtopicData from './listtopicData.json'; // Adjust the path if needed
+import listtopicData from './listtopicData.json'; 
 
 class Listtopic extends Component {
     render() {

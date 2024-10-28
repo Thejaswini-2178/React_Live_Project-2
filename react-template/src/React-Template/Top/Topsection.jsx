@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import topsectionData from './topsectionData.json'; // Adjust the path if needed
+import topsectionData from './topsectionData.json'; 
 
 class Topsection extends Component {
     render() {

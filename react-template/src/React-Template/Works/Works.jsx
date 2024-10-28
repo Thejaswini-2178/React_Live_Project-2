@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import worksData from './worksData.json'; // Adjust the path if needed
+import worksData from './worksData.json'; 
 
 export class Works extends Component {
     render() {
