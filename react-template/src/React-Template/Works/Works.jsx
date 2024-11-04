@@ -25,8 +25,7 @@ export class Works extends Component {
                                             <p>{work.description}</p>
                                             <button 
                                                 className="welcome-hero-btn how-work-btn" 
-                                                onClick={() => window.location.href = work.link}
-                                            >
+                                                onClick={() => window.location.href = work.link}>
                                                 read more
                                             </button>
                                         </div>
