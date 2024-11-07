@@ -4,7 +4,6 @@ import listtopicData from './listtopicData.json';
 class Listtopic extends Component {
     render() {
         const { listTopics } = listtopicData;
-
         return (
             <section id="list-topics" className="list-topics">
                 <div className="container">
