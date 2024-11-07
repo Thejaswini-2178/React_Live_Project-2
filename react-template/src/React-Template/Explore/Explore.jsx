@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react' 
 
 class Explore extends Component {
     render() {
@@ -415,5 +415,4 @@ class Explore extends Component {
         )
     }
 }
-
 export default Explore
