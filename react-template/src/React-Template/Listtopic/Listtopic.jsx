@@ -22,7 +22,8 @@ class Listtopic extends Component {
                             ))}
                         </ul>
                     </div>
-                </div>{/*/.container*/}
+                </div>
+                {/*/.container*/}
             </section>
         );
     }
