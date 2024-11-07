@@ -6,7 +6,6 @@ class Topsection extends Component {
         const { headerArea } = topsectionData.topArea;
         const { navbar } = headerArea;
         const { container } = navbar;
-        
         return (
             <section className="top-area">
                 <div className="header-area">
