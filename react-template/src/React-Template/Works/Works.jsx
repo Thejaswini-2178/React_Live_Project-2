@@ -4,7 +4,7 @@ import worksData from './worksData.json';
 export class Works extends Component {
     render() {
         const { works, sectionHeader } = worksData;  
-        
+       
         return (
             <div>
                 <section id="works" className="works">
