@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 class Explore extends Component {
     render() {
         return (
+            // blog
             <section id="explore" className="explore">
                 <div className="container">
                     <div className="section-header">
