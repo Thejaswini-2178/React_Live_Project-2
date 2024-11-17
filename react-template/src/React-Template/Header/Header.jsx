@@ -46,9 +46,9 @@ class Header extends Component {
                             </div>
                         </li>
                     </ul>
-                </header>{/*/.header-top*/}
+                </header>
+                {/*/.header-top*/}
                 {/*header-top end */}
-
             </div>
         );
     }
