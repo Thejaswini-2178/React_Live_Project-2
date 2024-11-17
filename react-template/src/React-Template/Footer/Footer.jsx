@@ -5,6 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
+        {/* Footer */}
         <footer id="footer" className="footer">
           <div className="container">
             <div className="footer-menu">
