@@ -4,7 +4,9 @@ import blogData from './blogData.json';
 export class Blog extends Component {
     render() {
         return (
+            
             <section id="blog" className="blog">
+                 {/* blog section */}
                 <div className="container">
                     <div className="section-header">
                         <h2>{blogData.title}</h2>
