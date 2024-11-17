@@ -59,6 +59,7 @@ class Footer extends Component {
             </div>
           </div>
         </footer>
+        {/* Footer ends */}
       </div>
     );
   }
